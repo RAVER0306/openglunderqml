@@ -145,7 +145,8 @@ void SquircleRenderer::paint()
 
     glViewport(0, 0, m_viewportSize.width(), m_viewportSize.height());
 
-    glDisable(GL_DEPTH_TEST);
+    // glDisable(GL_DEPTH_TEST);
+    glEnable(GL_DEPTH_TEST);
 
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE);

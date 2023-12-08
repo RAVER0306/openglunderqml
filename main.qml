@@ -16,7 +16,7 @@ FluWindow {
 
     FluButton{
         id: button
-        text: "button"
+        text: "button1"
     }
 
     Squircle {

@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     view1.show();
 
     QQuickView view2;
-    view2.setTitle("QML Window")
+    view2.setTitle("QML Window");
     view2.setResizeMode(QQuickView::SizeRootObjectToView);
     view2.setSource(QUrl("qrc:///scenegraph/openglunderqml/main2.qml"));
     view2.show();
